@@ -10,16 +10,14 @@
             "name": "Application",
             "request": "launch",
             "mainClass": "com.flowrecord.app.Application",
-            "projectName": "",
-            "vmArgs": "-Djava.home=/home/gitpod/.sdkman/candidates/java/8.0.265-open"
+            "projectName": ""
             
         },
         {
             "type": "java",
             "name": "Current File",
             "request": "launch",
-            "mainClass": "${file}",
-            "vmArgs": "-Djava.home=/home/gitpod/.sdkman/candidates/java/8.0.265-open"
+            "mainClass": "${file}"
         }
     ]
 }
