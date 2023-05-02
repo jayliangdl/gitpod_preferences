@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "com.flowrecord.app.Application",
+            "projectName": "",
+            "vmArgs": "-Djava.home=/home/gitpod/.sdkman/candidates/java/8.0.265-open"
+            
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "-Djava.home=/home/gitpod/.sdkman/candidates/java/8.0.265-open"
+        }
+    ]
+}
